@@ -1,0 +1,301 @@
+body {
+    background-color: rgb(250, 250, 250);
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    margin: 0 auto;
+    display: inline;
+    vertical-align: top;
+}
+
+.interestImage {
+    height: 200px;
+}
+
+.my img, .interest img {
+    border-radius: 15px;
+    box-shadow: 4px 4px 20px rgb(163, 163, 163);
+    transition: transform .4s;
+}
+
+.withInset {
+    width: 80%;
+    margin: 0 auto;  
+    position:static
+}
+
+.my {
+    margin-top: 70px;
+}
+
+header {
+    margin-top: 80px;
+    text-align: center;
+}
+
+main img:hover {
+    transform: scale(1.1);
+}
+
+hr.solid {
+    border-top: 0.5px solid #dfe1ff;
+}
+
+span {
+    font: 22px/1 sans-serif;
+}
+
+h1 {
+    font: bold 40px/1 sans-serif; 
+}
+
+h2 {
+    font: bold 35px/1 sans-serif; 
+}
+
+h3 {
+    font: bold 26px/1 sans-serif; 
+}
+
+.imageContainer {
+    display: inline-block;
+    float: right;
+    height: 100%;
+    width: 40%;
+    margin-right: 20px;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.interestDescriptionSection .container {
+    display: inline-block;
+    height: 100%;
+    width: 500px;
+    float: left;
+    margin-right: 20px;
+}
+
+.interest {
+    padding: 15px;
+    vertical-align: top;
+}
+
+.interestDescriptionSection {
+    display: inline-block;
+}
+
+.fixed-header{
+    width: 100%;
+    position: fixed;        
+    background-color: rgba(255, 255, 255, 0.924);
+    backdrop-filter: blur(10px);
+    padding: 10px 0;
+    color: #fff;
+    z-index: 20;
+}
+
+.fixed-header {
+    top: 0;
+}
+.fixed-footer{
+    bottom: 0;
+}
+.fixed-header .container{
+    width: 100%;
+    margin: 0 auto;
+}
+nav a{
+    color: rgb(37, 37, 37);
+    text-decoration: none;
+    padding: 7px 50px;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: bold;
+    transition: transform .2s;
+}
+
+nav {
+    width: 100%;
+    text-align: center;
+}
+nav a:hover{
+    transform: scale(1.1);
+    color: rgb(112, 112, 112);
+}
+
+html{
+    scroll-behavior:smooth
+}
+
+.myContainer {
+    padding: 20px;
+}
+
+.myContainer .textContainer {
+    display: inline-block;
+    width: 70%;
+    padding: 40px 0;
+    float: right;
+}
+
+.sixhandsTitle, .clever, .pumpkin {
+    padding-left: 40px;
+    font-size: 120px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+}
+
+.clever {
+    color: rgb(239, 152, 57);
+}
+.pumpkin {
+    mix-blend-mode: difference;
+    box-sizing: border-box;
+}
+.job h1 {
+    display: inline;
+}
+
+.cpImage {
+    background-image: url('/images/CP.png');
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    background-attachment: fixed;
+}
+
+.sixhandsImage {
+    background-image: url('/images/sixhands.jpeg');
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    background-attachment: fixed;
+}
+
+.gridTable {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 1em;
+    margin: 10px;
+}
+
+.gridTable div {
+    box-shadow: 4px 4px 20px rgb(163, 163, 163);
+    border-radius: 15px;
+    padding: 50px;
+}
+
+.gridGrayRow {
+    background-color:rgb(235, 235, 235);
+}
+
+.gridBlackRow {
+    background-color:rgb(69, 69, 69);
+}
+/* The sidebar menu */
+.sidebar {
+height: 100%; /* 100% Full-height */
+width: 0; /* 0 width - change this with JavaScript */
+position: fixed; /* Stay in place */
+z-index: 1; /* Stay on top */
+top: 0;
+left: 0;
+backdrop-filter: blur(10px);
+background-color: #fff; /* Black*/
+overflow-x: hidden; /* Disable horizontal scroll */
+padding-top: 60px; /* Place content 60px from the top */
+transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+/* The sidebar links */
+.sidebar a {
+margin: 4px 4px 4px 16px;
+padding: 4px 4px 4px 16px;
+text-decoration: none;
+font-size: 25px;
+color: #818181;
+display: block;
+transition: 0.3s;
+}
+
+.sidebar .active {
+    background-color: red;
+}
+
+.sidebar a:hover {
+color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+z-index: 2000;
+position: absolute;
+top: 20pxv ;
+right: 25px;
+font-size: 36px;
+margin-left: 50px;
+}
+
+.openbtn {
+position: absolute;
+left: 20px;
+bottom: 5px;
+font-size: 20px;
+cursor: pointer;
+color: black;
+padding: 10px 15px;
+border: none;
+border-radius: 10px;
+transition: transform .5s;
+}
+
+.openbtn:hover {
+background-color: rgb(235, 235, 235);
+transform: scale(1.1);
+}
+
+#speedFooter {
+    background-color: red;
+    width: 100%;
+    text-align: center;
+    padding: 5px
+}
+
+@media screen and (max-width: 1200px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+    .imageContainer {
+        display: inline-block;
+        width: 100%;
+        margin-right: 20px;
+        padding: 40px 0;
+        text-align: center;
+    }
+
+    .interestDescriptionSection .container {
+        display: inline-block;
+        width: 100%;
+        margin-right: 20px;
+    }
+    .fixed-header{
+        width: 100%;
+        position: fixed;        
+        background-color: rgba(255, 255, 255, 0.924);
+        backdrop-filter: blur(10px);
+        padding: 10px 0;
+        color: #fff;
+        z-index: 20;
+        overflow: auto;
+        white-space: nowrap;
+    }
+
+    .myContainer .textContainer {
+        display: inline-block;
+        width: 100%;
+        padding: 40px 0;
+    }
+}
