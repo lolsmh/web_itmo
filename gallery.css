@@ -1,0 +1,48 @@
+#gridTable {
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow-x: auto;
+    text-align: center;
+}
+
+main {
+    margin-top: 70px;
+    padding-bottom: 200px;
+}
+
+.galery-image {
+    display: inline;
+    max-height: 600px;
+    width: auto;
+    height: auto;
+    margin: 30px 15px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 20px rgb(163, 163, 163);
+    transition: transform .4s;
+}
+
+main .galery-image:hover {
+    transform: scale(1.05);
+}
+
+
+.search-container {
+    text-align: center;
+}
+
+.searchbar {
+    width: 400px;
+    height: 30px;
+    border-radius: 35px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(92, 92, 92);
+    padding: 15px;
+}
+
+.activity {
+    width: 80px;
+    height: 80px;
+    margin-top: 100px;
+}

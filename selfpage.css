@@ -15,7 +15,7 @@ body {
     height: 200px;
 }
 
-.my img, .interest img {
+.my img, .interest img  {
     border-radius: 15px;
     box-shadow: 4px 4px 20px rgb(163, 163, 163);
     transition: transform .4s;

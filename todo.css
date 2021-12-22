@@ -37,6 +37,7 @@ input {
 
 input:focus {
     background: #edf1f5;
+    border: 3px solid #ffffff;
     outline: none;
     border-radius: 15px;
 }
@@ -55,7 +56,7 @@ i {
     cursor: pointer;
 }
 
-#todo button {
+button {
     background-color: #000000;
     color: white;
     padding: 8px 20px;

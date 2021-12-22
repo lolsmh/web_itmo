@@ -7,6 +7,8 @@ function markActivePage() {
         configureActiveElement(sidebarButtons[2])
     } else if (pathname === "/todo.html") {
         configureActiveElement(sidebarButtons[3])
+    } else if (pathname == "/gallery.html") {
+        configureActiveElement(sidebarButtons[4])
     }
 }
 

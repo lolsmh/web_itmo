@@ -1,0 +1,24 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "some",
+  "main": "gallery.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git"
+  },
+  "keywords": [
+    "git"
+  ],
+  "author": "git",
+  "license": "ISC",
+  "dependencies": {
+    "izitoast": "^1.4.0",
+    "require": "^2.4.20",
+    "requirejs": "^2.3.6",
+    "vex": "^0.0.4"
+  }
+}

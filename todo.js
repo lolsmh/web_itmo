@@ -13,8 +13,6 @@ function onPageLoaded() {
         textSpan.classList.add("todo-text");
         const newTodo = input.value;
         textSpan.append(newTodo);
-        console.log(textSpan)
-        console.log("appended")
 
         const deleteBtn = document.createElement("span");
         deleteBtn.classList.add("todo-trash");
@@ -50,7 +48,6 @@ function onPageLoaded() {
             listenDeleteTodo(button);
         }
     }
-    loadTodos();
 
     input.addEventListener("keypress", (keyPressed) => {
         const keyEnter = 13;
@@ -75,6 +72,7 @@ function onPageLoaded() {
         overlay.style.height = "0";
     });
 
+    loadTodos();
 }
 
 document.addEventListener("DOMContentLoaded", onPageLoaded);
